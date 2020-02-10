@@ -14,6 +14,7 @@
 
 main :: IO ()
 main = do
+  putStrLn $ "****welcomeToAtCoder.hs****"
   -- 整数の入力
   a <- readLn
   -- スペース区切りの整数の入力

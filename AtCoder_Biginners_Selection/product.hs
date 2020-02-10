@@ -12,7 +12,8 @@
 
 main :: IO ()
 main = do
+  putStrLn "****products.hs****"
   [a, b] <- map read . words <$> getLine
-  if mod 2 (a * b) == 0
+  if mod (a * b) 2 == 0
   then putStrLn "Even"
   else putStrLn "Odd"
