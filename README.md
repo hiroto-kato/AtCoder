@@ -1,3 +1,5 @@
 # AtCoder
 
-* AtCoderで作成したコード
+* Answer of problems in Atcoder
+* Haskell code
+
