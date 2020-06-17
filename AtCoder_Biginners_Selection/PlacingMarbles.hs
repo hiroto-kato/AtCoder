@@ -6,10 +6,10 @@ Placing Marbles
 count :: String -> Int
 count [] = 0
 count (x:xs) = if x == '0'
-               then 0 + (count xs)
-               else 1 + (count xs)
+               then 0 + count xs
+               else 1 + count xs
   
 main :: IO ()
 main = do
   a <- getLine
-  putStrLn $ show $ count a
+  print $ show $ count a
